@@ -36,7 +36,7 @@
 <body>
     <section>
     <h1>Contador</h1>
-    <p>0</p>
+    <p id="absoluto">0</p>
     <button onclick="subtrair()">menos</button>
     <button onclick="somar()">mais</button>
     <button onclick="M100()">+100</button>
@@ -72,7 +72,7 @@
 
     //Aplicação de visualização
     function taxadeatualização(){
-        const p = document.querySelector("p")
+        const p = document.querySelector("#absoluto")
         console.log(p)
         p. innerText = number
 
